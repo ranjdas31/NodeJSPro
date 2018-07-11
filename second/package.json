@@ -1,0 +1,32 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "My second nodejs application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myprog": "node app.js",
+    "premyprog": "cls",
+    "postmyprog": "dir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjdas31/NodeJSPro.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjdas31/NodeJSPro/issues"
+  },
+  "homepage": "https://github.com/ranjdas31/NodeJSPro#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3"
+  },
+  "config": {"port": "3001" }
+
+}
